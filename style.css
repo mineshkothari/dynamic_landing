@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#time {
+    font-size: 8rem;
+    padding-top: 10rem;
+    margin-bottom: auto;
+}
+
+#time span {
+    display: block;
+    line-height: 1.01;
+}
+
+#time span.time-sec {
+    font-size: 4rem;
+}
+
+.heading {
+    padding-bottom: 5rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    margin-bottom: .5rem;
+    /* opacity: .6; */
+}
+
+span#name {
+    display: inline-block;
+    padding: .5rem;
+    min-width: 100px;
+    background: rgba(0,0,0,0.15);
+    transition: background 150ms ease-in;
+}
+
+span#name:focus {
+    background: rgba(0,0,0,0.55);
+    color: white;
+}
+
+h2#focus {
+    /* display: inline-block; */
+    padding: .5rem;
+    background: rgba(0,0,0,0.15);
+    transition: background 150ms ease-in;
+}
+
+h2#focus:focus {
+    background: rgba(0,0,0,0.55);
+    color: white;
+}
+
+@media(min-width: 768px) {
+    #time {
+        font-size: 10rem;
+    }
+}
