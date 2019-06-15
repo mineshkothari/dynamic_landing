@@ -27,7 +27,7 @@ This is my take on Brad Traversy's [YouTube tutorial](https://www.youtube.com/wa
 <br />
 <br />
 
-### Bugs
+## Bugs
 
 1. When a user clears the content of innerText, in other words, leaving it blank / null, the '[Enter Name]' textContent fails to show up again and the cursor glitches to the start of the sentence "Good morning ...". As a result, I made a few CSS changes to the `<span>` element to keep it on the right of the sentence and to make it 'obvious' that the element is editable when any text content has been cleared.
 
@@ -39,7 +39,11 @@ So for better UX (at least in my opinion), I opted to split the Time element to 
 
 *I will add more bugs here when I notice them :)*
 
+<br />
+<br />
+
 ## Acknowledgements
 
 1. Once again - Brad Brad Brad!!
-2. Images taken from [Unsplash](https://unsplash.com/) / [Pexels](https://www.pexels.com/)
+2. [Diogo Raminhos](https://stackoverflow.com/a/13838335)'s solution to add leading zeros to numbers using JavaScript.
+3. Images taken from [Unsplash](https://unsplash.com/) / [Pexels](https://www.pexels.com/)
